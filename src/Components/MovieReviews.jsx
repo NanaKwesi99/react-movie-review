@@ -32,7 +32,7 @@ class MovieReview extends Component {
         <Container>
           <Row>
             <Col sm="12" md="12" lg="12">
-              <h1>Awesome Movies to Watch</h1>{" "}
+              <h1>Must watch movies</h1>{" "}
             </Col>
             <Col>
               <MovieList movies={this.state.movies} />
